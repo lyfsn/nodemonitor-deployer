@@ -24,13 +24,13 @@ server_address = "0.0.0.0:8080"
   # The 'rpc' kind is a regular rpc-node
   kind="rpc"
   url = "http://88.99.94.109:10545"
-  name = "geth-init"
+  name = "geth-1"
 
 [[clients]]
   # The 'rpc' kind is a regular rpc-node
   kind="rpc"
   url = "http://88.99.94.109:8645"
-  name = "geth-1"
+  name = "geth-2"
 
 
 #[[clients]]
