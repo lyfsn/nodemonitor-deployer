@@ -32,6 +32,12 @@ server_address = "0.0.0.0:8080"
   url = "http://88.99.94.109:8645"
   name = "geth-2"
 
+[[clients]]
+  # The 'rpc' kind is a regular rpc-node
+  kind="rpc"
+  url = "http://88.99.94.109:8745"
+  name = "erigon-3"
+
 
 #[[clients]]
   # The 'infura' kind needs credentials
