@@ -50,6 +50,12 @@ server_address = "0.0.0.0:8080"
   url = "http://88.99.94.109:10945"
   name = "5-nethermind-teku"
 
+[[clients]]
+  # The 'rpc' kind is a regular rpc-node
+  kind="rpc"
+  url = "http://88.99.94.109:11045"
+  name = "6-geth-prysm"
+
 #[[clients]]
   # The 'infura' kind needs credentials
 #  kind="infura"
