@@ -84,13 +84,13 @@ server_address = "0.0.0.0:8080"
   # The 'rpc' kind is a regular rpc-node
   kind="rpc"
   url = "http://88.99.94.109:11545"
-  name = "10-erigon-teku"
+  name = "11-erigon-teku"
 
 [[clients]]
   # The 'rpc' kind is a regular rpc-node
   kind="rpc"
   url = "http://88.99.94.109:11645"
-  name = "11-reth-lighthouse"
+  name = "12-reth-lighthouse"
 
 #[[clients]]
   # The 'infura' kind needs credentials
