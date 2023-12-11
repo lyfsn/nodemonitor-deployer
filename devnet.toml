@@ -92,6 +92,18 @@ server_address = "0.0.0.0:8080"
   url = "http://88.99.94.109:11645"
   name = "12-reth-lighthouse"
 
+[[clients]]
+  # The 'rpc' kind is a regular rpc-node
+  kind="rpc"
+  url = "http://88.99.94.109:11745"
+  name = "13-reth-nimbus"
+
+[[clients]]
+  # The 'rpc' kind is a regular rpc-node
+  kind="rpc"
+  url = "http://88.99.94.109:11845"
+  name = "14-reth-lodestar"
+
 #[[clients]]
   # The 'infura' kind needs credentials
 #  kind="infura"
